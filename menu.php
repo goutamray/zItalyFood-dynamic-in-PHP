@@ -16,165 +16,25 @@
     <div id="main-content">
       <div class="wrap-content">
         <div class="row">
+
+          <?php foreach($menu_data as $food_data) : ?>
           <div class="col-1-3">
             <div class="wrap-col">
-              <h3>Pasta Plates</h3>
+              <h3><?php echo $food_data["menu_title"]?></h3>
+              <?php foreach($food_data["items"] as $food_item) : ?>
               <div class="post">
-                <a href="#"><img src="images/15.jpg" /></a>
+                <a href="#"><img src="<?php echo $food_item["photo"]?>" /></a>
                 <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
+                  <h5><a href="#"><?php echo $food_item["name"]?></a></h5>
+                  <span><?php echo $food_item["price"]?></span>
                 </div>
               </div>
-              <div class="post">
-                <a href="#"><img src="images/10.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-              <div class="post">
-                <a href="#"><img src="images/9.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
+              <?php endforeach; ?>
             </div>
           </div>
-          <div class="col-1-3">
-            <div class="wrap-col">
-              <h3>Starters</h3>
-              <div class="post">
-                <a href="#"><img src="images/14.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-              <div class="post">
-                <a href="#"><img src="images/8.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-              <div class="post">
-                <a href="#"><img src="images/7.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-1-3">
-            <div class="wrap-col">
-              <h3>Salads</h3>
-              <div class="post">
-                <a href="#"><img src="images/13.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-              <div class="post">
-                <a href="#"><img src="images/4.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-              <div class="post">
-                <a href="#"><img src="images/5.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          <?php endforeach; ?>
         </div>
-        <div class="row">
-          <div class="col-1-3">
-            <div class="wrap-col">
-              <h3>Chef's Specials</h3>
-              <div class="post">
-                <a href="#"><img src="images/15.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-              <div class="post">
-                <a href="#"><img src="images/10.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-              <div class="post">
-                <a href="#"><img src="images/9.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-1-3">
-            <div class="wrap-col">
-              <h3>Fast Food</h3>
-              <div class="post">
-                <a href="#"><img src="images/14.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-              <div class="post">
-                <a href="#"><img src="images/8.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-              <div class="post">
-                <a href="#"><img src="images/7.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-1-3">
-            <div class="wrap-col">
-              <h3>Seafood Specials</h3>
-              <div class="post">
-                <a href="#"><img src="images/13.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-              <div class="post">
-                <a href="#"><img src="images/4.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-              <div class="post">
-                <a href="#"><img src="images/5.jpg" /></a>
-                <div class="wrapper">
-                  <h5><a href="#">Lorem ipsum dolor</a></h5>
-                  <span>$25 - $26</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   </div>
