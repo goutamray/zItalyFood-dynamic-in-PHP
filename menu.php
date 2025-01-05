@@ -17,22 +17,29 @@
       <div class="wrap-content">
         <div class="row">
 
-          <?php foreach($menu_data as $food_data) : ?>
+          <?php  foreach ($menu_data as $food_data) : ?>
           <div class="col-1-3">
             <div class="wrap-col">
-              <h3><?php echo $food_data["menu_title"]?></h3>
-              <?php foreach($food_data["items"] as $food_item) : ?>
+              <h3><?php echo isset($food_data["menu_title"]) ? $food_data["menu_title"] : ""; ?></h3>
+              <?php if (isset($food_data["items"]) && is_array($food_data["items"])) : ?>
+              <?php foreach ($food_data["items"] as $food_item) : ?>
               <div class="post">
-                <a href="#"><img src="<?php echo $food_item["photo"]?>" /></a>
+                <a href="#"><img
+                    src="<?php echo isset($food_item["photo"]) ? $food_item["photo"] : "default.jpg"; ?>" /></a>
                 <div class="wrapper">
-                  <h5><a href="#"><?php echo $food_item["name"]?></a></h5>
-                  <span><?php echo $food_item["price"]?></span>
+                  <h5><a href="#"><?php echo isset($food_item["name"]) ? $food_item["name"] : ""; ?></a></h5>
+                  <span><?php echo isset($food_item["price"]) ? $food_item["price"] : ""; ?></span>
                 </div>
               </div>
               <?php endforeach; ?>
+              <?php else : ?>
+
+              <?php endif; ?>
             </div>
           </div>
           <?php endforeach; ?>
+
+
         </div>
 
       </div>

@@ -225,7 +225,62 @@ $menu_data = [
     ]
   ],
 
-]
+];
+
+  // about data 
+$about_data = [
+  "title" => "Your awesome company slogan goes here, we have the best food around",
+  "desc"  => "Unc elementum lacus in gravida pellentesque urna dolor eleifend felis eleifend",
+];
+
+
+// food data 
+$food_data_all = [
+   "title"    => "Welcome",
+   "desc"     => "Pellentesque elementum leo et justo dapibus convalli. In justo nibh, congue nec dapibus",
+   "all_food" => [
+      [
+        "title"  => "Menu Card",
+        "desc"   => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+        "button" => "Detail",
+        "photo"  => "images/menu.jpg",
+      ],
+      [
+        "title"  => "Fast Food",
+        "desc"   => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+        "button" => "Detail",
+        "photo"  => "images/fast-food.jpg",
+      ],
+      [
+        "title"  => "Chef Card",
+        "desc"   => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+        "button" => "Detail",
+        "photo"  => "images/reservation.jpg",
+      ],
+      [
+        "title"  => "Chef Card",
+        "desc"   => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+        "button" => "Detail-1",
+        "photo"  => "images/preview.jpg",
+      ],
+      [
+        "title"  => "Food Card",
+        "desc"   => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+        "button" => "Detail-2",
+        "photo"  => "images/reservation.jpg",
+      ],
+      [
+        "title"  => "Fast Card",
+        "desc"   => "The sliding menucard will surely impress your customers! Set up several pages and display them side by side, just as on a paper menucard!",
+        "button" => "Detail",
+        "photo"  => "images/reservation.jpg",
+      ],
+
+   ]
+  ];
+
+
+
 
 
 
