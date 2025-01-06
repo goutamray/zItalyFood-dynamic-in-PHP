@@ -280,7 +280,118 @@ $food_data_all = [
   ];
 
 
+// our staff 
+$staff_data = [
+  [
+    "name"         => "Goutam Roy",
+    "designation"  => "Mern Stack Developer",
+    "photo"        => "images/chef-1.jpg",
+    "social"       => [
+       [
+        "twitter" => "Twitter",
+        "link"     => "#",
+        "class"    => "fa fa-twitter"
+       ],
+       [
+        "facebook" => "Facebook",
+        "link"     => "#",
+        "class"    => "fa fa-facebook"
+       ],
+       [
+        "linkedin" => "Linkedin",
+        "link"     => "#",
+        "class"    => "fa fa-linkedin"
+       ],
+       [
+        "instagram" => "Instagram",
+        "link"     => "#",
+        "class"    => "fa fa-instagram"
+       ],
+    ]
+  ],
+  [
+    "name"         => "Shanto Roy",
+    "designation"  => "Theme Developer",
+    "photo"        => "images/chef-2.jpg",
+    "social"       => [
+       [
+        "twitter" => "Twitter",
+        "link"     => "#",
+        "class"    => "fa fa-twitter"
+       ],
+       [
+        "facebook" => "Facebook",
+        "link"     => "#",
+        "class"    => "fa fa-facebook"
+       ],
+       [
+        "linkedin" => "Linkedin",
+        "link"     => "#",
+        "class"    => "fa fa-linkedin"
+       ],
+       [
+        "instagram" => "Instagram",
+        "link"     => "#",
+        "class"    => "fa fa-instagram"
+       ],
+    ]
+  ],
+  [
+    "name"         => "Durjay Roy",
+    "designation"  => "Css Developer",
+    "photo"        => "images/chef-3.jpg",
+    "social"       => [
+       [
+        "twitter" => "Twitter",
+        "link"     => "#",
+        "class"    => "fa fa-twitter"
+       ],
+       [
+        "facebook" => "Facebook",
+        "link"     => "#",
+        "class"    => "fa fa-facebook"
+       ],
+       [
+        "linkedin" => "Linkedin",
+        "link"     => "#",
+        "class"    => "fa fa-linkedin"
+       ],
+       [
+        "instagram" => "Instagram",
+        "link"     => "#",
+        "class"    => "fa fa-instagram"
+       ],
+    ]
+  ],
+  [
+    "name"         => "Manik Roy",
+    "designation"  => "Html Developer",
+    "photo"        => "images/chef-4.jpg",
+    "social"       => [
+       [
+        "twitter" => "Twitter",
+        "link"     => "#",
+        "class"    => "fa fa-twitter"
+       ],
+       [
+        "facebook" => "Facebook",
+        "link"     => "#",
+        "class"    => "fa fa-facebook"
+       ],
+       [
+        "linkedin" => "Linkedin",
+        "link"     => "#",
+        "class"    => "fa fa-linkedin"
+       ],
+       [
+        "instagram" => "Instagram",
+        "link"     => "#",
+        "class"    => "fa fa-instagram"
+       ],
+    ]
+  ],
 
+]
 
 
 
